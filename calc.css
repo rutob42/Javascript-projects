@@ -1,0 +1,30 @@
+.Calculator{
+    width: 300px;
+    padding:50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(91, 136, 91);
+    background-color: darkslategray;
+    border-radius: 4px;
+    
+}
+
+.display{
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: aliceblue;
+    
+}
+
+button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    align-items: center;
+}
