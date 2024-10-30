@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+    font-size: 24px;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    width: 400px;
+    background-color: aliceblue;
+    border: 2px solid #ccc;
+    text-align: center;
+    padding: 20px; /* Add padding for better spacing */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Smooth border */
+}
+
+.button {
+    color: white;
+    background-color: black;
+    padding: 10px 20px; /* Add padding for better button size */
+    margin: 10px; /* Space between buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Smooth edges */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(81, 71, 71);
+}
+
+.input {
+    width: 80%; /* Increase input width */
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 20px; /* Space between input and buttons */
+    border: 2px solid #ccc;
+    border-radius: 5px; /* Rounded input edges */
+    font-size: 18px; /* Adjust input font size */
+}
+
+li {
+    list-style-type: none; /* Remove bullet points */
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border for task items */
+    border-radius: 5px; /* Smooth edges for tasks */
+    text-align: left;
+    font-size: 18px;
+}
