@@ -1,0 +1,109 @@
+*{
+    color: #f3ede8;
+    margin: 0;
+    
+    padding: 0;
+}
+
+body{
+    font-size: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #F2EDD7FF 45%, #755139FF 100%);
+
+    
+}
+
+.container1{
+    background: linear-gradient(45deg, #F2EDD7FF 45%, #755139FF 100%);
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.navbar li{
+    margin:  2px;
+}
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out
+}
+
+.navbar a:hover{
+    color: rgb(5, 5, 5);
+    
+    transition: 0.5s ease-in-out;
+    
+}
+.image-container{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.view1{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 0;
+    transition: transform 0.3s ease;
+    display:block;
+    justify-content: center;
+    width: 750px;
+    height: auto;
+}
+
+.image-container:hover .view1{
+    transform: scale(1.1);
+}
+.res-name{
+    position: absolute;
+    font-size: 2em; /* Adjust font size */
+    color: #333; /* Text color */
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    right: 425px;
+}
+
+@media(max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .view1{
+        padding-bottom: 10px;
+    }
+}
+
+.overlay-text{
+    position: absolute; /* Position the text absolutely within the container */
+    top: 120px; /* Distance from the bottom of the container */
+    right: 45px; /* Distance from the left of the container */ /* Text color */
+    color: #f3ede8; /* Semi-transparent background */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for the text box */
+    font-size: 35px; /* Font size */
+
+}
+
+.feature-item{
+    color: #2d2c2b;
+}    
+
+
